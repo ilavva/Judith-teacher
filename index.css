@@ -1,0 +1,62 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  direction: rtl;
+
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+}
+.container {
+  border: 2px blue solid;
+  padding: 20px;
+  margin: 10px;
+  min-height: 95vh;
+}
+header {
+  text-align: center;
+}
+header img {
+  margin: auto;
+  width: 100%;
+}
+/* main * {
+  border: blue dashed 1px;
+} */
+main {
+  text-align: center;
+  height: 80%;
+}
+main > * {
+  margin: 10px;
+}
+.info1 {
+  border: 2px color brown;
+}
+.whatsapp {
+  color: green;
+}
+.info2 {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  min-height: 50vh;
+}
+.col {
+  width: 50%;
+  text-align: start;
+}
+.col p {
+  padding: 10px;
+  background-color: rgb(243, 241, 228);
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+.info3 {
+  background-color: blue;
+  color: white;
+}
