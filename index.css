@@ -19,6 +19,11 @@
 header {
   text-align: center;
 }
+header .thanks {
+  position: absolute;
+  right: 15px;
+  top: 15px;
+}
 header img {
   margin: auto;
   width: 100%;
