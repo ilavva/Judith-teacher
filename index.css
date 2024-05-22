@@ -44,6 +44,7 @@ main > * {
   justify-content: space-between;
   gap: 10px;
   min-height: 50vh;
+  margin-top: 20px;
 }
 .col {
   width: 50%;
@@ -51,7 +52,7 @@ main > * {
 }
 .col p {
   padding: 10px;
-  background-color: rgb(243, 241, 228);
+  background-color: rgb(248, 247, 238);
   margin-bottom: 10px;
   border-radius: 10px;
 }
@@ -59,4 +60,7 @@ main > * {
 .info3 {
   background-color: blue;
   color: white;
+  border-radius: 10px;
+  padding: 10px;
+  line-height: 2rem;
 }
